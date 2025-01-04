@@ -983,7 +983,7 @@ section,
 /*--------------------------------------------------------------
 # Featured Services Section
 --------------------------------------------------------------*/
-.featured-services .service-item {
+.mission .service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
@@ -993,7 +993,7 @@ section,
   z-index: 1;
 }
 
-.featured-services .service-item:before {
+.mission .service-item:before {
   content: "";
   position: absolute;
   background: var(--accent-color);
@@ -1002,41 +1002,41 @@ section,
   z-index: -1;
 }
 
-.featured-services .service-item .icon {
+.mission .service-item .icon {
   margin-bottom: 10px;
 }
 
-.featured-services .service-item .icon i {
+.mission .service-item .icon i {
   color: var(--accent-color);
   font-size: 36px;
   transition: ease-in-out 0.3s;
 }
 
-.featured-services .service-item h4 {
+.mission .service-item h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 20px;
 }
 
-.featured-services .service-item h4 a {
+.mission .service-item h4 a {
   color: var(--heading-color);
   transition: ease-in-out 0.3s;
 }
 
-.featured-services .service-item p {
+.mission .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
   transition: ease-in-out 0.3s;
 }
 
-.featured-services .service-item:hover h4 a,
-.featured-services .service-item:hover .icon i,
-.featured-services .service-item:hover p {
+.mission .service-item:hover h4 a,
+.mission .service-item:hover .icon i,
+.mission .service-item:hover p {
   color: var(--contrast-color);
 }
 
-.featured-services .service-item:hover:before {
+.mission .service-item:hover:before {
   background: var(--accent-color);
   inset: 0;
   border-radius: 0px;
@@ -1045,28 +1045,28 @@ section,
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
-.call-to-action {
+.newsletter {
   padding: 80px 0;
   position: relative;
   clip-path: inset(0);
 }
 
-.call-to-action .container {
+.newsletter .container {
   position: relative;
   z-index: 3;
 }
 
-.call-to-action h3 {
+.newsletter h3 {
   font-size: 28px;
   font-weight: 700;
   color: var(--default-color);
 }
 
-.call-to-action p {
+.newsletter p {
   color: var(--default-color);
 }
 
-.call-to-action .cta-btn {
+.newsletter .cta-btn {
   font-family: var(--heading-font);
   font-weight: 500;
   font-size: 16px;
@@ -1080,7 +1080,7 @@ section,
   color: var(--contrast-color);
 }
 
-.call-to-action .cta-btn:hover {
+.newsletter .cta-btn:hover {
   background: var(--contrast-color);
   color: var(--accent-color);
   border: 2px solid var(--accent-color);
@@ -1359,7 +1359,7 @@ section,
   overflow: hidden;
 }
 
-.tabs .nav-tabs {
+.newsletter .nav-tabs {
   border: 0;
 }
 
@@ -1963,8 +1963,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Starter Section Section
+# Newsletter
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+.pdf {
+  width: 100%;
+  aspect-ratio: 4 / 3;
 }
